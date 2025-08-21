@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: gz_raw_data          
+    database: future-loader-462210-p6    
+    tables:
+      - name: raw_gz_sales
+      - name: raw_gz_product
+      - name: raw_gz_ship
