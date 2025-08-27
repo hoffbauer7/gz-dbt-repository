@@ -4,7 +4,7 @@ with sales_margin as (
 
 select
   orders_id,
-  -- se todas as linhas do pedido têm a mesma data, MIN/MAX são equivalentes
+  
   min(date_date) as date_date,
 
   sum(revenue)        as revenue,
